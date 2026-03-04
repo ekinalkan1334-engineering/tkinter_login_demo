@@ -11,7 +11,7 @@ def login():
 
 
      # Check for empty fields first
-    if (not email and not passwoard):
+    if (not email and not password):
         messagebox.showerror("Error", "Please enter your email and password")
 
     elif not email:
