@@ -52,7 +52,7 @@ email_entry.pack(pady=5)
 
 #for password
 tk.Label(frame, text="Password:", bg="#E6D1EB").pack(pady=5)
-password_entry = tk.Entry(frame, width=30, show=".")  #show hides
+password_entry = tk.Entry(frame, width=30, show="*")  #show hides
 password_entry.pack(pady=5)
 
 tk.Button(frame, text="Login", width=20, command=login, bg="#ADD8E6").pack(pady=(20,5))
